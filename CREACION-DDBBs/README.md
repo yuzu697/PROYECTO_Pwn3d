@@ -46,6 +46,7 @@ createdb pwn3d
 3. Ejecuta el script SQL:
 
 ```bash
+psql -d users -U postgres -f mount_DDBB_users.sql
 psql -d pwn3d -U postgres -f mount_DDBB.sql
 ```
 > Reemplaza postgres por tu usuario de PostgreSQL.
@@ -54,6 +55,11 @@ psql -d pwn3d -U postgres -f mount_DDBB.sql
 
 ```bash
 psql -d pwn3d -U postgres
+\dt
+```
+
+```bash
+psql -d users -U postgres
 \dt
 ```
 
