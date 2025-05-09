@@ -32,11 +32,11 @@ El proyecto sigue el patrón MVC (Modelo-Vista-Controlador) con capas bien defin
 /Pwn3dWeb
 │
 ├── /src/main/java
-│ ├── /com/pwn3dweb/controllers -> Controladores REST
-│ ├── /com/pwn3dweb/services -> Lógica de negocio
-│ ├── /com/pwn3dweb/dao -> Interfaces DAO (Data Access Object)
-│ ├── /com/pwn3dweb/models -> Entidades y modelos de datos
-│ └── /com/pwn3dweb/config -> Configuración general (CORS, seguridad, etc.)
+│ ├── /controllers -> Controladores REST
+│ ├── /services -> Lógica de negocio
+│ ├── /dao -> Interfaces DAO (Data Access Object)
+│ ├── /models -> Entidades y modelos de datos
+│ └── /config -> Configuración general (CORS, seguridad, etc.)
 │
 ├── /src/main/resources
 │ ├── application.properties -> Configuración de conexión a la base de datos
@@ -59,14 +59,19 @@ spring.jpa.show-sql=true
 ## 📦 ¿Cómo funciona la app?
 
 Controladores (`controllers`): gestionan las peticiones HTTP (GET, POST, etc.) y redirigen a los servicios correspondientes.
+
 Servicios (`services`): contienen la lógica de negocio (validaciones, reglas, etc.).
+
 DAOs (`dao`): interfaces que manejan el acceso a la base de datos mediante JPA/Hibernate.
+
 Modelos (`models`): representan las entidades que se mapean con las tablas SQL (usuarios, retos, etc.).
 
 ## ▶️ Cómo ejecutar la aplicación
 
 Abre el proyecto en Eclipse.
+
 Asegúrate de tener la base de datos activa y accesible.
+
 Ejecuta la clase principal (con `@SpringBootApplication`).
 
 Accede a `http://localhost:8080` o al endpoint configurado.
@@ -74,8 +79,11 @@ Accede a `http://localhost:8080` o al endpoint configurado.
 ## 📡 Endpoints (ejemplo)
 
 `GET /retos` → lista de CTFs disponibles.
+
 `POST /login` → autenticación de usuarios (redirige al módulo Python si aplica).
+
 `POST /writeup` → subida de soluciones.
+
 `GET /ranking` → ranking de usuarios.
 
 Se incluirá una documentación Swagger o Postman próximamente.
