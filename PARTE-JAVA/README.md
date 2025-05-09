@@ -9,7 +9,7 @@ Este módulo representa el núcleo de la aplicación web: está desarrollado en 
 - **Java JDK 17+**
 - **Eclipse IDE for Enterprise Java Developers**
 - **Apache Maven**
-- PostgreSQL en ejecución (la app se conecta a la base de datos montada con el script `init_ctf_db.sql`)
+- PostgreSQL en ejecución (la app se conecta a la base de datos montada con el script `mount_DDBB.sql`)
 - Archivo `application.properties` configurado (se explica más abajo)
 
 ---
