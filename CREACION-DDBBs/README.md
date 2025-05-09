@@ -48,7 +48,7 @@ createdb pwn3d
 ```bash
 psql -d pwn3d -U postgres -f mount_DDBB.sql
 ```
-> Reemplaza tu_usuario por tu usuario de PostgreSQL.
+> Reemplaza postgres por tu usuario de PostgreSQL.
 
 4. Verifica que las tablas se hayan creado:
 
