@@ -25,8 +25,8 @@ Este proyecto (Parte de Python) es una aplicación web y de escritorio híbrida 
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/h4ck3nd/PROYECTO_DAM.git
-cd PROYECTO_DAM/PROYECTO_FLET/
+git clone https://github.com/h4ck3nd/PROYECTO_Pwn3d.git
+cd PROYECTO_Pwn3d/
 ```
 
 ### 2. Crea un entorno virtual con Python 3.11
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 
 ### 5. Configura la base de datos
 
-Asegúrate de tener una base de datos `PostgreSQL` llamada `appusers` con una tabla `usuarios` con las siguientes columnas:
+Asegúrate de tener una base de datos `PostgreSQL` llamada `users` con una tabla `usuarios` con las siguientes columnas:
 
 ```sql
 DROP TABLE IF EXISTS usuarios;
