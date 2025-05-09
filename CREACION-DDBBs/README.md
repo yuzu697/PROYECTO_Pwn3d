@@ -8,7 +8,7 @@ Este módulo contiene todo lo necesario para levantar la base de datos de la pla
 
 El archivo principal es:
 
-- **`init_ctf_db.sql`**: script SQL que crea automáticamente todas las tablas necesarias y puede insertar datos iniciales (usuarios demo, retos de ejemplo, etc.).
+- **`mount_DDBB.sql`**: script SQL que crea automáticamente todas las tablas necesarias y puede insertar datos iniciales (usuarios demo, retos de ejemplo, etc.).
 
 Con solo ejecutar este archivo, se monta toda la base de datos requerida por la aplicación sin necesidad de crear las tablas manualmente.
 
