@@ -40,20 +40,20 @@ Con solo ejecutar este archivo, se monta toda la base de datos requerida por la 
 2. Crea la base de datos:
 
 ```bash
-createdb ctf_platform
+createdb pwn3d
 ```
 
 3. Ejecuta el script SQL:
 
 ```bash
-psql -d ctf_platform -U tu_usuario -f init_ctf_db.sql
+psql -d pwn3d -U postgres -f mount_DDBB.sql
 ```
 > Reemplaza tu_usuario por tu usuario de PostgreSQL.
 
 4. Verifica que las tablas se hayan creado:
 
 ```bash
-psql -d ctf_platform -U tu_usuario
+psql -d pwn3d -U postgres
 \dt
 ```
 
@@ -75,7 +75,7 @@ Ubicación recomendada dentro del repositorio:
 
 ```psql
 /database
-  └── init_ctf_db.sql
+  └── mount_DDBB.sql
 ```
 
 ## ✅ Siguiente paso
