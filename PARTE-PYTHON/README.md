@@ -85,7 +85,7 @@ ALTER TABLE usuarios ADD COLUMN cookie VARCHAR(255) UNIQUE;
 python main.py
 ```
 
-Esto iniciará el servidor Flask en `http://localhost:5000` y abrirá la interfaz con Flet como una ventana de escritorio en `http://localhost:30050`.
+Esto iniciará el servidor Flask en `http://localhost:5000` y abrirá la interfaz con Flet como una ventana de escritorio en `http://localhost:3000`.
 
 ## Estructura del archivo `main.py`
 
