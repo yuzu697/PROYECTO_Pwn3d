@@ -82,4 +82,4 @@ Ubicación recomendada dentro del repositorio:
 
 Una vez montada la base de datos, asegúrate de configurar la conexión desde el backend Java y el módulo de login en Python con las credenciales correctas.
 
-## ¿Problemas o sugerencias? ¡Envíanos un issue o PR! 🛠️
+#### ¿Problemas o sugerencias? ¡Envíanos un issue o PR! 🛠️
