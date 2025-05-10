@@ -21,7 +21,7 @@ import threading
 # Clave secreta para JWT #
 ##########################
 
-SECRET_KEY = "-yTUI4zPf>V7\60x:1?V<MHod}>" # Clave secreta utilizada para firmar y verificar los tokens JWT
+SECRET_KEY = "-yTUI4zPf>V7/60x:1?V<MHod}>" # Clave secreta utilizada para firmar y verificar los tokens JWT
 
 #######################
 # Configuración Flask #
