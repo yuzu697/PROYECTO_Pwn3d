@@ -1647,7 +1647,38 @@
 		<img src="img/logoSM.png" alt="Pwn3d! small footer logo"
 			loading="lazy">
 		<p>© Pwn3d! 2024-2025</p>
+		<button id="toggle-theme" class="toggle-button">
+		  Modo Oscuro 🌙
+		</button>
 	</footer>
 	<script src="<%= request.getContextPath() %>/js/machines.js"></script>
+	<script>
+	  // Obtén el botón de cambio de tema y el body
+	  const toggleBtn = document.getElementById('toggle-theme');
+	  const body = document.body;
+	
+	  // Verifica si el tema se ha guardado previamente
+	  if (localStorage.getItem('theme') === 'light') {
+	    body.classList.add('light-theme'); // Aplica la clase del modo claro
+	    toggleBtn.textContent = 'Modo Oscuro 🌙'; // Cambia el texto del botón
+	  } else {
+	    body.classList.remove('light-theme'); // Aplica el modo oscuro por defecto
+	    toggleBtn.textContent = 'Modo Claro 🌞'; // Cambia el texto del botón
+	  }
+	
+	  // Agrega el evento para alternar entre los modos cuando el botón es presionado
+	  toggleBtn.addEventListener('click', () => {
+	    body.classList.toggle('light-theme'); // Alterna la clase 'light-theme'
+	
+	    // Verifica si el modo claro está activado
+	    const isLight = body.classList.contains('light-theme');
+	
+	    // Cambia el texto del botón dependiendo del modo
+	    toggleBtn.textContent = isLight ? 'Modo Oscuro 🌙' : 'Modo Claro 🌞';
+	
+	    // Guarda la preferencia de tema en localStorage
+	    localStorage.setItem('theme', isLight ? 'light' : 'dark');
+	  });
+	</script>
 </body>
 </html>
