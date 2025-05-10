@@ -15,20 +15,27 @@
 <body>
 	<header>
 	    <section class="header-container">
+	    
 	        <!-- LOGO -->
+	        
 	        <article class="logo-wrapper">
 	            <img class="logo" alt="Pwn3d! website logo" src="img/logo.png">
 	        </article>
 	
 	        <article class="project-info">
+	        
 	            <!-- RRSS (Redes Sociales) -->
+	            
 	            <div class="media-links">
+	            
 	                <!-- Ko-fi -->
+	                
 	                <a title="Support us on Ko-fi" href="https://ko-fi.com/vulnyx" target="_blank">
 	                    <img width="28" height="24" src="https://storage.ko-fi.com/cdn/kofi_stroke_cup.svg" alt="Ko-fi Logo" loading="eager">
 	                </a>
 	
-	                <!-- Discord -->
+	                <!-- DISCORD -->
+	                
 	                <a title="Discord" href="https://discord.gg/qdm3bN3Emb" target="_blank">
 	                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#5865F2" fill="none" stroke-linecap="round" stroke-linejoin="round">
 	                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -42,6 +49,7 @@
 	                </a>
 	
 	                <!-- LinkedIn -->
+	                
 	                <a title="LinkedIn" href="https://www.linkedin.com/company/vulnyx-official/" target="_blank">
 	                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#0077B5" fill="none" stroke-linecap="round" stroke-linejoin="round">
 	                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -53,7 +61,8 @@
 	                    </svg>
 	                </a>
 	
-	                <!-- Instagram -->
+	                <!-- INSTAGRAM -->
+	                
 	                <a title="Instagram" href="https://www.instagram.com/vulnyxofficial/" target="_blank">
 	                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F56040" fill="none" stroke-linecap="round" stroke-linejoin="round">
 	                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -63,7 +72,8 @@
 	                    </svg>
 	                </a>
 	
-	                <!-- X (Twitter) -->
+	                <!-- X (TWITTER) -->
+	                
 	                <a title="X" href="https://x.com/VulNyxOfficial" target="_blank">
 	                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
 	                        <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
@@ -71,14 +81,16 @@
 	                    </svg>
 	                </a>
 	
-	                <!-- Telegram -->
+	                <!-- TELEGRAM -->
+	                
 	                <a title="Telegram" href="https://t.me/VulNyx" target="_blank">
 	                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#27A7E7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 	                        <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
 	                    </svg>
 	                </a>
 	
-	                <!-- Mail -->
+	                <!-- MAIL -->
+	                
 	                <a title="Mail" href="mailto:hello@vulnyx.com" target="_blank">
 	                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#8a90c7" fill="none" stroke-linecap="round" stroke-linejoin="round">
 	                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -88,6 +100,7 @@
 	                </a>
 	
 	                <!-- RSS -->
+	                
 	                <a title="RSS" href="https://vulnyx.com/feed/rss.xml" target="_blank">
 	                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
 	                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -97,7 +110,9 @@
 	                    </svg>
 	                </a>
 	            </div>
+	            
 					<!-- SUBMIT VM -->
+					
 					<section class="form-vm">
 					    <article class="form-container">
 					        <div class="form-title">
@@ -171,7 +186,9 @@
 	<main>
 		<section class="wrapper">
 			<article class="actions">
+			
 				<!-- STATS -->
+				
 				<ul class="vm-stats">
 				    <li title="Total VMs"><span class="badge badge-vms">9 VMs</span></li>
 				    <li title="Low VMs"><span class="badge badge-low">1 Low</span></li>
@@ -180,6 +197,8 @@
 				    <li title="Hard VMs"><span class="badge badge-hard">2 Hard</span></li>
 				    <li title="Total Writeups"><span class="badge badge-writeups">42 Writeups</span></li>
 				</ul>
+				
+				<!-- HEADER ENCIMA DE LA ZONA DE MAQUINAS -->
 				
 				<div class="filters">
 				    <div class="filter-wrapper" onmouseleave="hideFilters()">
@@ -239,7 +258,13 @@
 				
 				    <button type="button" class="submit-btn" onclick="showVMForm()">Submit VM</button>
 				</div>
+				
+			<!-- ZONA DE MAQUINAS -->
+			
 			</article>
+			
+			<!-- HEADER DE ZONA DE MAQUINAS -->
+			
 			<div id="vm-table-wrapper">
 				<table id="vm-table">
 					<thead>
@@ -256,6 +281,9 @@
 							<th id="writeups">Writeups</th>
 						</tr>
 					</thead>
+					
+					<!-- MAQUINAS -->
+					
 					<tbody>
 						<script>
 						    let writeupsArr = [];
